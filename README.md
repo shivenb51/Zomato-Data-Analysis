@@ -1,62 +1,99 @@
-🍽️ Zomato Data Analysis & Restaurant Rating Prediction
-📌 Overview
+# 🍽️ Zomato Data Analysis & Restaurant Rating Prediction
 
-This project analyzes Zomato restaurant data to uncover key insights about pricing, locations, cuisines, and customer ratings.
-The goal is to build a predictive model that can estimate restaurant ratings based on multiple factors such as cost, location, and delivery availability.
+## 📌 Overview
 
-🛠️ Tech Stack
+This project analyzes Zomato restaurant data to uncover meaningful insights about pricing, locations, cuisines, customer preferences, and restaurant ratings. It also develops a machine learning model to predict restaurant ratings based on factors such as cost, location, online delivery, and table booking availability.
 
-Languages: Python
+---
 
-Libraries: Pandas, NumPy, Matplotlib, Scikit-learn
+## 🛠️ Tech Stack
 
-Tools: Jupyter Notebook, MS Excel
+- **Programming Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Tools:** Jupyter Notebook, MS Excel
 
-📊 Features & Highlights
+---
 
-Cleaned and preprocessed 10,000+ Zomato restaurant records for analysis.
+## 📊 Features & Highlights
 
-Conducted exploratory data analysis (EDA) to identify trends in cost, ratings, cuisines, and delivery modes.
+- Cleaned and preprocessed **10,000+** restaurant records.
+- Performed Exploratory Data Analysis (EDA) to identify trends in:
+  - Restaurant Ratings
+  - Cost Distribution
+  - Popular Cuisines
+  - City & Location Analysis
+  - Online Delivery & Table Booking
+- Built multiple Machine Learning regression models for restaurant rating prediction.
+- Achieved an **R² Score of 0.89** on the test dataset.
+- Created insightful visualizations to understand:
+  - Top-rated cuisines
+  - Popular restaurant locations
+  - Cost vs Rating relationship
+  - Impact of online delivery on ratings
 
-Built multiple regression models to predict restaurant ratings.
+---
 
-Achieved an R² score of 0.89 on test data.
+## 🚀 Key Results
 
-Created visualizations to highlight:
+- Identified the major factors affecting restaurant ratings.
+- Predicted restaurant ratings with approximately **89% accuracy (R² Score = 0.89)**.
+- Generated actionable insights that can help restaurant owners and food delivery businesses make data-driven decisions.
 
-Top cuisines & popular locations
+---
 
-Cost vs Rating trends
+## 📂 Project Structure
 
-Online delivery impact on ratings
+```
+Zomato-Data-Analysis/
+│── zomato-data-analysis-explanation.ipynb
+│── README.md
+```
 
-🚀 Key Results
+---
 
-Identified top factors influencing restaurant ratings.
+## 🖥️ Installation & Usage
 
-Predicted restaurant ratings with ~89% accuracy (R² score).
+### Clone the repository
 
-Provided actionable insights for restaurant owners & food delivery platforms.
+```bash
+git clone https://github.com/shivenb51/Zomato-Data-Analysis.git
+cd Zomato-Data-Analysis
+```
 
-📂 Project Structure
-├── zomato_analysis.ipynb   # Jupyter notebook with full analysis
-├── zomato_dataset.csv      # Dataset (if shareable)
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
+### Install the required libraries
 
-🖥️ How to Run
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
-Clone the repository:
+### Launch Jupyter Notebook
 
-git clone https://github.com/udaysinghal/zomato-data-analysis.git
-cd zomato-data-analysis
+```bash
+jupyter notebook
+```
 
+Open:
 
-Install dependencies:
+```
+zomato-data-analysis-explanation.ipynb
+```
 
-pip install -r requirements.txt
+---
 
+## 📈 Future Improvements
 
-Run the Jupyter Notebook:
+- Deploy the prediction model using Streamlit or Flask.
+- Build an interactive dashboard with Power BI or Tableau.
+- Integrate live restaurant data using APIs.
 
-jupyter notebook zomato_analysis.ipynb
+---
+
+## 👨‍💻 Author
+
+**Shiven Bhanarkar**
+
+- GitHub: https://github.com/shivenb51
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
