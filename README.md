@@ -24,7 +24,6 @@ This project analyzes Zomato restaurant data to uncover meaningful insights abou
   - City & Location Analysis
   - Online Delivery & Table Booking
 - Built multiple Machine Learning regression models for restaurant rating prediction.
-- Achieved an **R² Score of 0.89** on the test dataset.
 - Created insightful visualizations to understand:
   - Top-rated cuisines
   - Popular restaurant locations
@@ -36,7 +35,6 @@ This project analyzes Zomato restaurant data to uncover meaningful insights abou
 ## 🚀 Key Results
 
 - Identified the major factors affecting restaurant ratings.
-- Predicted restaurant ratings with approximately **89% accuracy (R² Score = 0.89)**.
 - Generated actionable insights that can help restaurant owners and food delivery businesses make data-driven decisions.
 
 ---
